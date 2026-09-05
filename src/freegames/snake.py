@@ -42,7 +42,7 @@ def move():
     snake.append(head)
 
     if head == food:
-        print('Snake:', len(snake))
+        print('Points:', len(snake), 'Point')
         food.x = randrange(-15, 15) * 10
         food.y = randrange(-15, 15) * 10
     else:
@@ -55,7 +55,7 @@ def move():
 
     square(food.x, food.y, 9, 'green')
     update()
-    ontimer(move, 100)
+    ontimer(move, 50)
 
 
 setup(420, 420, 370, 0)
