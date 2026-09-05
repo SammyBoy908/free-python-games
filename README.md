@@ -38,8 +38,22 @@ git add <filename>
 For instance
 git add README.md
 
+## Adding changes to files that have changed
+git add -u
+
 ## Restoring a file
 git restore --staged README.md
 
+## Git diff
+git diff
+
+### Showing changes to staged files
+git diff --staged
+
 ## Commit a file
 git commit -m "My commit message"
+
+## Getting Updates
+git fetch
+git checkout master
+git pull
