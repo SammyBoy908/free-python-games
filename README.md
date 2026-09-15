@@ -20,6 +20,7 @@ winget install --id Git.Git -e --source winget
 
 # Clone a repo
 
+```
 C:\Users\grige>f:
 F:\>mkdir repos
 F:\>cd repos
@@ -36,6 +37,7 @@ Updating files: 100% (131/131), done.
 F:\repos>
 
 cd free-python-games
+```
 
 # How to Use Git
 Check what files have edits, see what you need to add, etc
