@@ -19,9 +19,23 @@ Run this from the terminal
 winget install --id Git.Git -e --source winget
 
 # Clone a repo
-git clone https://github.com/SammyBoy908/free-python-games.git
-cd free-python-games
 
+C:\Users\grige>f:
+F:\>mkdir repos
+F:\>cd repos
+F:\repos>git clone https://github.com/SammyBoy908/free-python-games.git
+Cloning into 'free-python-games'...
+remote: Enumerating objects: 1658, done.
+remote: Counting objects: 100% (1658/1658), done.
+remote: Compressing objects: 100% (649/649), done.
+remote: Total 1658 (delta 968), reused 1657 (delta 968), pack-reused 0 (from 0)
+Receiving objects: 100% (1658/1658), 4.06 MiB | 7.58 MiB/s, done.
+Resolving deltas: 100% (968/968), done.
+Updating files: 100% (131/131), done.
+
+F:\repos>
+
+cd free-python-games
 
 # How to Use Git
 Check what files have edits, see what you need to add, etc
