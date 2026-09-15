@@ -39,6 +39,31 @@ F:\repos>
 cd free-python-games
 ```
 
+# Running a Game
+
+```
+F:\repos\free-python-games>pip install -e .
+Obtaining file:///F:/repos/free-python-games
+  Installing build dependencies ... done
+  Checking if build backend supports build_editable ... done
+  Getting requirements to build editable ... done
+  Preparing editable metadata (pyproject.toml) ... done
+Building wheels for collected packages: freegames
+  Building editable for freegames (pyproject.toml) ... done
+  Created wheel for freegames: filename=freegames-2.5.3-0.editable-py3-none-any.whl size=6574 sha256=96b738aa4d14084385acdf8a1771333200eea8044db1dadb055bb7e3d94dfd04
+  Stored in directory: C:\Users\grige\AppData\Local\Temp\pip-ephem-wheel-cache-ra94osu4\wheels\55\3c\a3\60abd8c84768e8efb349c0da7e12949e9e8aecb4a06d7c198f
+Successfully built freegames
+Installing collected packages: freegames
+  WARNING: The script freegames.exe is installed in 'C:\Users\grige\AppData\Local\Python\pythoncore-3.14-64\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed freegames-2.5.3
+
+[notice] A new release of pip is available: 26.0.1 -> 26.2.1
+[notice] To update, run: C:\Users\grige\AppData\Local\Python\pythoncore-3.14-64\python.exe -m pip install --upgrade pip
+
+F:\repos\free-python-games>python -m freegames.snake
+```
+
 # How to Use Git
 Check what files have edits, see what you need to add, etc
 
